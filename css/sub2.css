@@ -1,0 +1,46 @@
+.article{
+    height: 390px;
+}
+.article-sub{
+    height: 100%;
+    position: relative;
+}
+.article-img{
+    height: 100%;
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: cover;
+    display: block;
+}
+.article .article-help-1{
+    position: relative;
+    height: 50%;
+    padding: 0 10px 15px 0;
+}
+.article .article-help-2{
+    position: relative;
+    height: 50%;
+    padding: 15px 10px 0 0;
+}
+.article-img .box-desciption{
+    position: absolute;
+    color: white;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 15px;
+    text-shadow: 2px 2px 4px #000;
+    background: linear-gradient(180deg, transparent 0,rgba(0,0,0,.19) 28%,rgba(0,0,0,.7));
+}
+
+.detail .card{
+    margin-right: 20px;
+}
+.detail span{
+    font-size: 30px;
+    position: relative;
+}
+.detail .detail-sub{
+    margin-bottom: 30px;
+}
