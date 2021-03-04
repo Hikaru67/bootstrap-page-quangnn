@@ -12,6 +12,9 @@ body{
     width: 100%;
     flex: 0 0 auto;
 }
+.header .over{
+    margin-right: 5px;
+}
 .header-left{
     padding: 0 0 !important;
     box-shadow: 0 0 3px 1px;
