@@ -44,3 +44,64 @@
 .detail .detail-sub{
     margin-bottom: 30px;
 }
+
+.item-viewed{
+    position: absolute;
+    right: 8px;
+    top: 0;
+    color: #fff;
+    padding: 1px 10px;
+    font-weight: 700;
+    /*z-index: 1;*/
+}
+
+.card-body.item-detail {
+    color: #2d2d2d;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.info-footer.row.no-gutters {
+    padding: 5px 20px 15px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.col-9.site-name {
+    text-align: left;
+    color: #777;
+    padding-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.col-3.time-range {
+    color: #777;
+    text-align: right;
+    white-space: nowrap;
+}
+h3.card-title.item-title.max-ln-3 {
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+}
+p.card-text.item-text.max-ln-3 {
+    display: inline-block;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+}
+
+.content{
+    position: relative;
+}
+.card-img-top{
+    position: relative;
+}
+.img-text{
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+    color: white;
+}
